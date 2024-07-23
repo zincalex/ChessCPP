@@ -16,7 +16,7 @@ using namespace std;
 
 //Clears console for a fancy and clean cout
 void clear_term() {
-    system("clear");
+    int _ = system("clear");
 }
 
 // Handle v argument option

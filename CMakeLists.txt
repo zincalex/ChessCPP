@@ -41,9 +41,9 @@ add_executable(replay
         src/replay.cpp
 )
 
-add_executable(scacchiera
-        src/scacchiera.cpp
+add_executable(chessboard
+        src/chessboard.cpp
 )
 
-target_link_libraries(scacchiera Logger Board Bot Chessman)
+target_link_libraries(chessboard Logger Board Bot Chessman)
 target_link_libraries(replay Logger Board Bot Chessman)
