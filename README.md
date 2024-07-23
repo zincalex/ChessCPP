@@ -68,7 +68,7 @@ The layout of the chessboard is labeled according to the classic rules:
 >**Note:** white pieces are lower case, black pieces are upper case
 
 To specify a move insert the start position and end position. 
-The coordinates are in the format **{letter}{number}**, case insensitive:
+The coordinates are in the format **{letter}{number}**, case insensitive.
 Allowed moves:
 - Insert a move (e.g d2 d4)
 - **FF** : ask to draw
