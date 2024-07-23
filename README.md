@@ -20,9 +20,9 @@ The project implements:
 - A chess game with rules and special moves implemented, featuring 2 game modes
         -**Computer vs Computer**
         -**Player vs Computer**
-- A **replay mode**, where logs of past matches saved in .txt file can 
-        - placed inside a different .txt file with all chessboard changes
-        - step by step replay of the match in the terminal
+- A **replay mode**, where logs of past matches saved in .txt file can: 
+	- placed inside a different .txt file with all chessboard changes
+	- step by step replay of the match in the terminal
 
 ## Pieces
 List of pieces (standard Italian pieces):
@@ -68,11 +68,10 @@ The layout of the chessboard is labeled according to the classic rules:
 >**Note:** white pieces are lower case, black pieces are upper case
 
 To specify a move insert the start position and end position. 
-The coordinates are in the format **{letter/column}{number/row}**, case insensitive.
-Overall, you can:
-    - Insert a move (e.g d2 d4)  
-    - **FF** : ask to draw 
-
+The coordinates are in the format **{letter/column}{number/row}**, case insensitive:
+Allowed moves:
+- Insert a move (e.g d2 d4)
+- **FF** : ask to draw
 
 ### Replay mode
 There are 2 mode of view a replay
